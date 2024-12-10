@@ -33,7 +33,7 @@ const glbLoader = new GLTFLoader();
 const texLoader = new THREE.TextureLoader();
 
 // load duck
-const duckGlb = await glbLoader.loadAsync('./src/duck.glb');
+const duckGlb = await glbLoader.loadAsync('./src/Duck.glb');
 let duckMaterial = null;
 let duckGeometry = null;
 duckGlb.scene.traverse((child) => {
